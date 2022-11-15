@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000
 const app = express()
 app.use(cors())
 app.get('/test', (req,res) => {
-    res.send('Docker API is running...')
+    res.send('Docker API is pretty cool...')
 })
 
 app.listen(PORT, () => {
